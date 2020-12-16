@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="FILMES_XSL.xsl"?>
+<FILMES>
+    <FILME>
+        <TITULO>Os Infiltrados</TITULO>
+        <GENERO>Ação</GENERO>
+        <GENERO>Drama</GENERO>
+        <GENERO>Policial</GENERO>
+        <DURACAO tipo="minutos">151</DURACAO>
+    </FILME>
+    <FILME>
+        <TITULO>Mar Adentro</TITULO>
+        <GENERO>Drama</GENERO>
+        <DURACAO tipo="minutos">125</DURACAO>
+    </FILME>
+    <FILME>
+        <TITULO>Shrek</TITULO>
+        <GENERO>Animação</GENERO>
+        <GENERO>Família</GENERO>
+        <GENERO>Aventura</GENERO>
+        <DURACAO tipo="minutos">90</DURACAO>
+    </FILME>
+    <FILME>
+        <TITULO>Cidade de Deus</TITULO>
+        <GENERO>Ação</GENERO>
+        <GENERO>Drama</GENERO>
+        <DURACAO tipo="minutos">130</DURACAO>
+    </FILME>
+</FILMES>
