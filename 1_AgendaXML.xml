@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="1_AgendaXSL.xsl"?>
+<!DOCTYPE agenda [
+    <!ELEMENT agenda (pessoa+)>
+    <!ELEMENT pessoa (nome, cpf, email, telefone, datanasc)>
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT cpf (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT telefone (#PCDATA)>
+    <!ELEMENT datanasc (#PCDATA)>
+
+
+    <!--ELEMENT emails (email+)>
+    <!ELEMENT email (email1, email2)>
+    <!ELEMENT telefones (telefone+)>
+    <!ELEMENT telefone (tel1, tel2)-->
+]>
+<agenda>
+    <pessoa>
+        <nome>José da Silva</nome>
+        <cpf>111.222.333-44</cpf>
+        
+        <email>sxlsdksljdskd</email>
+
+        <!--email
+            email1="josesilva@gmail.com"
+            email2="josesilva@hotmail.com">
+        </email>
+        <telefone
+            tel1="(65)99999-8888"
+            tel2="(65)98888-7777">
+        </telefone-->
+
+        <telefone>123234234</telefone>
+
+        <datanasc>12/10/1967</datanasc>
+    </pessoa>
+    <pessoa>
+        <nome>Maria da Graça</nome>
+        <cpf>222.444.555-77</cpf>
+        <email
+            email1="mariagraca@gmail.com"
+            email2="mariagraca@hotmail.com"
+        </email>
+        <telefone
+            tel1="(65)95555-4444"
+            tel1="(65)99999-8888">
+        </telefone>
+        <datanasc>22/03/1987</datanasc>
+    </pessoa>
+</agenda>

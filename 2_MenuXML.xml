@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="2_MenuXSL.xsl"?>
+<!DOCTYPE restaurante [
+    <!ELEMENT restaurante (menu+)>
+    <!ELEMENT menu (nome, preco, descricao, calorias)>
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT preco (#PCDATA)>
+    <!ELEMENT descricao (#PCDATA)>
+    <!ELEMENT calorias (#PCDATA)>
+]>
+<restaurante>
+    <menu>
+        <nome>Arroz com Ovo</nome>
+        <preco>R$ 15.00</preco>
+        <descricao>Arroz branco com ovo caipira frito no azeite de oliva e orégano.</descricao>
+        <calorias>350 kcal</calorias>
+    </menu>
+
+    <menu>
+        <nome>Filé de Frango à Parmegiana</nome>
+        <preco>R$ 32.00</preco>
+        <descricao>Prato com arroz, purê de batata e filé de frango empanado com molho de tomate e queijo.</descricao>
+        <calorias>450 kcal</calorias>
+    </menu>
+
+    <menu>
+        <nome>Pizza de Calabresa</nome>
+        <preco>R$ 29.00</preco>
+        <descricao>Pizza de Calabresa com massa fina, recheada com calabresa, molho de tomate, cebola rocha e muzarela gratinada.</descricao>
+        <calorias>540 kcal</calorias>
+    </menu>
+
+    <menu>
+        <nome>Strogonoff de Carne</nome>
+        <preco>R$ 45.00</preco>
+        <descricao>Arroz branco, batata frita e strogonoff de filé mignon ao molho branco.</descricao>
+        <calorias>495 kcal</calorias>
+    </menu>
+</restaurante>
