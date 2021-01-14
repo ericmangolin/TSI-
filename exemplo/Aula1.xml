@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-model href="Aula1.xsd" ?>
+<produtos>
+    <produto cod="prod1">
+        <nome>Livro de XML</nome>
+        <preço>127.00</preço>
+    </produto>
+    <produto cod="prod2">
+        <nome>Treinamento em XML</nome>
+        <preço>880.00</preço>
+    </produto>
+</produtos>

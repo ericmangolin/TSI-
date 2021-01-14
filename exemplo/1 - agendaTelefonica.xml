@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <pessoa>
+        <nome>José da Silva</nome>
+        <cpf>111.222.333-44</cpf>
+        <telefone>(65)99999-8888</telefone>
+        <telefone>(65)98888-7777</telefone>
+        <email>josesilva@gmail.com</email>
+        <email>josesilva@hotmail.com</email>
+        <datanascimento>12/10/1967</datanascimento>
+    </pessoa>
+    <pessoa>
+        <nome>Maria da Graça</nome>
+        <cpf>222.444.555-77</cpf>   
+        <telefone>(65)95555-4444</telefone>
+        <telefone>(65)99999-8888</telefone>
+        <email>mariagraca@gmail.com</email>
+        <email>mariagraca@hotmail.com</email>
+        <datanascimento>22/03/1987</datanascimento>
+    </pessoa>
+</agenda>

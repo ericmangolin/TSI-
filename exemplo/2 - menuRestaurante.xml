@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <prato>
+        <nome>Filé de Frango à Parmegiana</nome>
+        <preco>32.00</preco>
+        <descricao>Prato com arroz, purê de batata e filé de frango empanado com molho de tomate e queijo.</descricao>
+        <calorias>450</calorias>
+    </prato>
+    <prato>
+        <nome>Arroz com Ovo</nome>
+        <preco>15.00</preco>
+        <descricao>Arroz branco com ovo caipira frito com azeite de oliva e orégano.</descricao>
+        <calorias>350</calorias>
+    </prato>
+    <prato>
+        <nome>Pizza de Calabresa</nome>
+        <preco>29.00</preco>
+        <descricao>Pizza de calabresa com massa fina, recheada com calabresa, molho de tomate e cebola.</descricao>
+        <calorias>540</calorias>
+    </prato>
+    <prato>
+        <nome>Strogonoff de Carne</nome>
+        <preco>45.00</preco>
+        <descricao>Arroz branco, batata frita e strogonoff de filé mignon ao molho branco.</descricao>
+        <calorias>495</calorias>
+    </prato>
+</menu>

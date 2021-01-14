@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registro>
+    <disciplina>
+        <nomeDisciplina>Geografia</nomeDisciplina>
+        <aluno>
+            <nome>José</nome>
+            <nota>5.9</nota>
+        </aluno>
+        <aluno>
+            <nome>Maria</nome>
+            <nota>8.0</nota>
+        </aluno>
+        <aluno>
+            <nome>João</nome>
+            <nota>6.7</nota>
+        </aluno>
+    </disciplina>
+    <disciplina>
+        <nomeDisciplina>História</nomeDisciplina>
+        <aluno>
+            <nome>José</nome>
+            <nota>9.8</nota>
+        </aluno>
+        <aluno>
+            <nome>Maria</nome>
+            <nota>5.8</nota>
+        </aluno>
+        <aluno>
+            <nome>João</nome>
+            <nota>8.2</nota>
+        </aluno>
+    </disciplina>
+</registro>

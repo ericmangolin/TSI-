@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pontos [
+    <!ELEMENT pontos (ponto+)>
+    <!ELEMENT ponto (x,y)>
+    <!ELEMENT x (#PCDATA)>
+    <!ELEMENT y (#PCDATA)>
+]>
+<pontos>
+    <ponto>
+        <x>4</x>
+        <y>7</y>
+    </ponto>
+    <ponto>
+        <x>5</x>
+        <y>8</y>
+    </ponto>
+    <ponto>
+        <x>9</x>
+        <y>1</y>
+    </ponto>
+    <ponto>
+        <x>3</x>
+        <y>6</y>
+    </ponto>
+    <ponto>
+        <x>1</x>
+        <y>3</y>
+    </ponto>
+</pontos>
