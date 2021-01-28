@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="notebook.xsl"?>
+<!DOCTYPE produtos [
+    <!ELEMENT produtos (produto+)>
+    <!ELEMENT produto (nome,descricao,preco,imagem,tipo,marca)>
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT descricao (#PCDATA)>
+    <!ELEMENT preco (#PCDATA)>
+    <!ELEMENT imagem (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT marca (#PCDATA)>
+]>
+<produtos>
+    <produto>
+        <nome>Notebook Acer Aspire 3 A315-56-35ET</nome>
+        <descricao>Notebook Acer Aspire 3 A315-56-35ET 10ª Intel Core i3 8GB 512GB SSD W10 15,6''</descricao>
+        <preco>3199.99</preco>
+        <imagem>AcerAspire3.jpg</imagem>
+        <tipo>notebook</tipo>
+        <marca>Acer</marca>
+    </produto>
+    <produto>
+        <nome>Notebook Ultrafino Lenovo Ideapad S145</nome>
+        <descricao>Notebook Ultrafino Lenovo Ideapad S145 Intel Core i3-8130U 8GB 1TB 15.6" W10 - Prata</descricao>
+        <preco>2759.99</preco>
+        <imagem>LenovoIdeapad.jpg</imagem>
+        <tipo>notebook</tipo>
+        <marca>Lenovo</marca>
+    </produto>
+    <produto>
+        <nome>Notebook Gamer 2AM E550</nome>
+        <descricao>Notebook Gamer 2AM E550 Intel Core I7 8GB (GeForce GTX 1050 com 3GB) 256GB SSD IPS Full HD 15,6" Freedos Cinza Escuro</descricao>
+        <preco>5599.99</preco>
+        <imagem>NotebookGamer2AM.jpg</imagem>
+        <tipo>notebook</tipo>
+        <marca>2AM</marca>
+    </produto>
+    <produto>
+        <nome>Notebook Positivo Motion Q464B</nome>
+        <descricao>Notebook Positivo Motion Q464B Intel Atom Quad core 4GB 64GB SSD + 64GB Nuvem 14" W10 Vermelho</descricao>
+        <preco>1449.99</preco>
+        <imagem>NotebookPositivo.jpg</imagem>
+        <tipo>notebook</tipo>
+        <marca>Positivo</marca>
+    </produto>
+    <produto>
+        <nome>Notebook Compaq Presario CQ-25</nome>
+        <descricao>Notebook Compaq Presario CQ-25 Intel Pentium 4GB 120GB SSD 14''</descricao>
+        <preco>1599.99</preco>
+        <imagem>NotebookCompaq.jpg</imagem>
+        <tipo>notebook</tipo>
+        <marca>Compaq</marca>
+    </produto>
+
+//itens inseridos
+
+    <produto>
+        <nome>Notebook 1</nome>
+        <descricao>Notebook Dell Inspiron 15 3000 i15-3584-AS40P - Intel Core i3 4GB 128GB SSD 15,6” Windows 10</descricao>
+        <preco>2999.99</preco>
+        <imagem>dell.jpg</imagem>
+        <tipo>notebook</tipo>
+        <marca>Dell</marca>
+    </produto>
+	<produto>
+        <nome>Notebook 2</nome>
+        <descricao>Notebook Acer Aspire 3 A315-23G-R2SE AMD Ryzen 5 - 8GB 256GB SSD 15,6” Placa Vídeo 2GB Windows 10</descricao>
+        <preco>3999.99</preco>
+        <imagem>acer.jpg</imagem>
+        <tipo>notebook</tipo>
+        <marca>Acer</marca>
+    </produto>
+</produtos>

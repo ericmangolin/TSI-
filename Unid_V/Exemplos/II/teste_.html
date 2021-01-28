@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title></title>
+    <script>
+        function iniciaRequest(url) {
+            //Teste do Browser
+            if (window.XMLHttpRequest) {
+                //Não é MS Internet Explorer
+                obj = new XMLHttpRequest();
+                obj.onreadystatechange = resposta;
+                try {
+                    obj.open("GET", "file.xml", true);
+                    obj.send(null);
+                }
+                catch (exc) {
+
+                    alert('Exception: ' + exc);
+                }
+            }
+            else if (window.ActiveXObject) {
+                //É MS Internet Explorer
+                obj = new ActiveXObject('Microsoft.XMLHTTP');
+                obj.onreadystatechange = reposta;
+                obj.open('GET', url, true);
+                obj.send();
+            }
+            else {
+                alert('seu navegador não suporta ajax');
+                return;
+            }
+        }
+
+        function resposta() {
+            if (obj.readyState == 4) {
+                if (obj.status == 200) {
+                    imp = document.getElementById('saida');
+                    imp.innerHTML = '<ul>';
+                    resposta = obj.responseXML;
+                    //Reparem no tagName do xml.
+                    produtos = resposta.getElementsByTagName('produto');
+                    for (ix = 0; ix < produtos.length; ix++) {
+                        var valor = produtos[ix].textContent;
+                        if (!valor) {
+                            valor = produtos[ix].text;
+                        }
+                        imp.innerHTML = imp.innerHTML + "<li>" + valor + "</li>";
+                    }
+
+                    imp.innerHTML = imp.innerHTML + '</ul>';
+                }
+
+            }
+        }
+
+    </script>
+</head>
+
+<body onload="iniciaRequest('http://localhost/VIDEO/teste.xml');">
+    <h3> Produtos </h3>
+    <div id='saida'>
+    </div>
+</body>

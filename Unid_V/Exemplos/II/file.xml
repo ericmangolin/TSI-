@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<produtos>
+    <produto>
+        <nome>Cantil para camping</nome>
+        <preço>R$ 50,00 </preço>
+    </produto>
+    <produto>
+        <nome>Mochila de 35 litros</nome>
+        <preço>R$ 150,00 </preço>
+    </produto>
+    <produto>
+        <nome>Bota de caminhada</nome>
+        <preço>R$ 210,00 </preço>
+    </produto>
+</produtos>
