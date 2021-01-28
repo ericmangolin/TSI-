@@ -1,0 +1,134 @@
+/* Página centralizada */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right: 2px solid white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgb(98, 155, 105);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #999191;
+    padding: 20px;
+    font-family: Arial;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.nome_cel{
+    font-size: 28px;
+    color: white;
+    background-color: #333;
+    padding: 0.3rem 0.3rem;
+}
+
+h2{
+    font-size: 25px;
+    color: rgb(66, 58, 58);
+    margin-bottom: 0px;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Preenchimento de colunas */
+.row,.row>.column {
+    padding: 8px;
+}
+
+/* Tamanho de colunas iguais posicionadas lado a lado */
+.column {
+    float: left;
+    width: 20%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: rgb(213, 230, 195);
+    padding: 0.5rem;
+    text-align: center;
+}
+/* ------------------------------------------*/
+.btn {
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 0.8rem 4rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin-top: 0px;
+}
+/* ------------------------------------------*/
+.danger {
+    background-color: tomato;
+}
+.danger:hover {
+    background: #b41308;
+}
+/* ------------------------------------------*/
+.comper {
+    background-color: rgb(98, 155, 105);
+    margin-left: 5px;
+}
+.comper:hover {
+    background: #0b6827;
+}
+/* ------------------------------------------*/
+
+.img_cel{
+    width: 85%;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Galeria de Produtos - Tablet</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #4CAF50;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f1f1f1;
+            padding: 20px;
+            font-family: Arial;
+        }
+
+        /* Center website */
+        .main {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 50px;
+            word-break: break-all;
+        }
+
+        .row {
+            margin: 8px -16px;
+        }
+
+        /* Add padding BETWEEN each column */
+        .row,
+        .row>.column {
+            padding: 8px;
+        }
+
+        /* Create four equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 25%;
+        }
+
+        /* Clear floats after rows */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Content */
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 900px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        .btn {
+            border: none;
+            /* Remove borders */
+            color: white;
+            /* Add a text color */
+            padding: 14px 28px;
+            /* Add some padding */
+            cursor: pointer;
+            /* Add a pointer cursor on mouse-over */
+        }
+
+        .danger {
+            background-color: #f44336;
+        }
+
+        /* Red */
+        .danger:hover {
+            background: #da190b;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="celular.html">Celular</a></li>
+        <li><a href="notebook.html">Notebook</a></li>
+        <li><a class="active" href="tablet.html">Tablet</a></li>
+    </ul>
+
+    <div class="row">
+        <div class="column">
+            <div class="content">
+                <img src="imagens/GalaxyA7.jpg" alt="Tablet Samsung Galaxy A7" style="width:100%">
+                <h3>Tablet Samsung Galaxy A7</h3>
+                <p><b>Marca:</b>Samsung</p>
+                <p><b>Preço:</b>R$ 1439,10</p>
+                <p>Tablet Samsung Galaxy A7 64GB Wi-Fi 4G Tela 10.4" - Octa-Core 2.0GHz - Grafite</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="imagens/PositivoTwistTab.jpg" alt="Tablet Positivo Twist Tab T770B" style="width:100%">
+                <h3>Tablet Positivo Twist Tab T770B</h3>
+                <p><b>Marca:</b>Positivo</p>
+                <p><b>Preço:</b>R$ 399,00 <button class="btn danger">Promoção</button></p>
+                <p>Tablet Positivo Twist Tab T770B 32GB Wi-Fi Tela 7" Android QuadCore de 1,5 GHz - Cinza Escuro</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="imagens/TabletPtb7qsg.jpg" alt="Tablet Ptb7qsg 3g Philco" style="width:100%">
+                <h3>Tablet Ptb7qsg 3g Philco</h3>
+                <p><b>Marca:</b>Philco</p>
+                <p><b>Preço:</b>R$ 449,99 <button class="btn danger">Promoção</button></p>
+                <p>Tablet Ptb7qsg 3g Philco, Android 8.1 E Tela Multi-toque</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="imagens/MultilaserM7.jpg" alt="Tablet Multilaser M7 3G Plus NB304" style="width:100%">
+                <h3>Tablet Multilaser M7 3G Plus NB304</h3>
+                <p><b>Marca:</b>Multilaser</p>
+                <p><b>Preço:</b>R$ 494,10</p>
+                <p>Tablet Multilaser M7 3G Plus NB304,Preto,Tela 7,Dual Chip,Wi-fi+3G,Bluetooth,Câm traseira 2MP e 16GB
+                </p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="imagens/GalaxyTabS5e.jpg" alt="Tablet Samsung Galaxy Tab S5e" style="width:100%">
+                <h3>Tablet Samsung Galaxy Tab S5e</h3>
+                <p><b>Marca:</b>Samsung</p>
+                <p><b>Preço:</b>R$ 2499,00</p>
+                <p>Tablet Samsung Galaxy Tab S5e 64GB Wi-Fi 4G Tela 10.5" Android Octa-Core 2.0GHz - Prata</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

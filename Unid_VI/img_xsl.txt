@@ -1,3 +1,23 @@
 https://pt.stackoverflow.com/questions/11322/como-exibir-imagens-com-xsl-com-a-src-da-img-do-arquivo-xml
 
 https://www.it-swarm-pt.com/pt/xml/xsl-se-outra-condicao/940432928/
+
+<xsl:for-each select="produtos/produto">
+
+</xsl:for-each>
+
+
+
+<xsl:if test="preco &lt; 500">
+                                <p>
+                                    <h2><b>R$ </b><xsl:apply-templates select="./preco"/></h2>
+                                    <button class="btn danger">Promoção</button>
+                                </p>
+                            </xsl:if>
+
+                            <xsl:else>
+                                <p>
+                                    <b>R$ </b><xsl:apply-templates select="./preco"/>
+                                    <button class="btn comper">Comprar</button>
+                                </p>
+                            </xsl:else>

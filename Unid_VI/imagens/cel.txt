@@ -1,0 +1,95 @@
+21
+iPhone 12
+Smartphone Apple iPhone 12 64GB iOS Câmera Dupla
+5600
+
+20
+Samsung Galaxy S10 Plus
+Smartphone Samsung Galaxy S10 Plus SM-G975FZ 128GB Android
+2840
+
+19
+Motorola Edge Plus
+Smartphone Motorola Edge Plus XT2061-3 256GB Android Câmera Tripla
+4470
+
+18
+Xiaomi Mi 10T
+Smartphone Xiaomi Mi 10T 5G 128GB Android Câmera Tripla
+4800
+
+17
+Motorola One Zoom
+Smartphone Motorola One Zoom XT2010-1 128GB Android Câmera Quádrupla
+2100
+
+16
+Samsung Galaxy A80
+Smartphone Samsung Galaxy A80 SM-A805FZ 128GB Android
+1890
+
+15
+Motorola One Fusion
+Smartphone Motorola One Fusion XT2073-2 128GB Android Câmera Quádrupla
+1400
+
+14
+Xiaomi Redmi Note 8
+Smartphone Xiaomi Redmi Note 8 128GB Android Câmera Quádrupla
+1450
+
+13
+Samsung Galaxy A51
+Smartphone Samsung Galaxy A51 SM-A515F 128GB Android
+1700
+
+12
+Samsung Galaxy A30s
+Smartphone Samsung Galaxy A30s SM-A307G 64GB Android
+1370
+
+11
+Zenfone Max Shot
+Smartphone Asus Zenfone Max Shot 64GB Android Câmera Tripla
+1010
+
+10
+Moto G9 Play
+Smartphone Motorola Moto G G9 Play XT2083-1 64GB Android
+1170
+
+9
+Moto G8
+Smartphone Motorola Moto G G8 XT2045-1 64GB Android
+1250
+
+8
+Moto G8 Power Lite
+Smartphone Motorola Moto G G8 Power Lite XT2055-2 64GB Android
+1050
+
+7
+Moto G8 Play
+Smartphone Motorola Moto G G8 Play XT2015-2 32GB Android
+999
+
+6
+Moto E6 Plus
+Smartphone Motorola Moto E6 Plus XT2025-1 32GB Android
+750
+
+5
+LG K22 Plus
+Smartphone LG K22 Plus LM-K200BAW 64GB Android Câmera Dupla
+798
+
+4
+Samsung Galaxy A10
+Smartphone Samsung Galaxy A10 SM-A105M 32GB Android
+1345
+
+3
+Xiaomi Redmi Go
+Smartphone Xiaomi Redmi Go 16GB Android 8.0 MP
+750
+

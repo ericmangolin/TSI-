@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Galeria de Produtos - Notebook</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #4CAF50;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f1f1f1;
+            padding: 20px;
+            font-family: Arial;
+        }
+
+        /* Center website */
+        .main {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 50px;
+            word-break: break-all;
+        }
+
+        .row {
+            margin: 8px -16px;
+        }
+
+        /* Add padding BETWEEN each column */
+        .row,
+        .row>.column {
+            padding: 8px;
+        }
+
+        /* Create four equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 25%;
+        }
+
+        /* Clear floats after rows */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Content */
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 900px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        .btn {
+            border: none;
+            /* Remove borders */
+            color: white;
+            /* Add a text color */
+            padding: 14px 28px;
+            /* Add some padding */
+            cursor: pointer;
+            /* Add a pointer cursor on mouse-over */
+        }
+
+        .danger {
+            background-color: #f44336;
+        }
+
+        /* Red */
+        .danger:hover {
+            background: #da190b;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="celular.html">Celular</a></li>
+        <li><a class="active" href="notebook.html">Notebook</a></li>
+        <li><a href="tablet.html">Tablet</a></li>
+    </ul>
+
+    <div class="row">
+        <div class="column">
+            <div class="content">
+                <img src="imagens/AcerAspire3.jpg" alt="Notebook Acer Aspire 3 A315-56-35ET" style="width:100%">
+                <h3>Notebook Acer Aspire 3 A315-56-35ET</h3>
+                <p><b>Marca:</b>Acer</p>
+                <p><b>Preço:</b>R$ 3199,99</p>
+                <p>Notebook Acer Aspire 3 A315-56-35ET 10ª Intel Core i3 8GB 512GB SSD W10 15,6''</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="imagens/LenovoIdeapad.jpg" alt="Notebook Ultrafino Lenovo Ideapad S145" style="width:100%">
+                <h3>Notebook Ultrafino Lenovo Ideapad S145</h3>
+                <p><b>Marca:</b>Lenovo</p>
+                <p><b>Preço:</b>R$ 2759,99</p>
+                <p>Notebook Ultrafino Lenovo Ideapad S145 Intel Core i3-8130U 8GB 1TB 15.6" W10 - Prata</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="imagens/NotebookPositivo.jpg" alt="Notebook Positivo Motion Q464B" style="width:100%">
+                <h3>Notebook Positivo Motion Q464B</h3>
+                <p><b>Marca:</b>Positivo</p>
+                <p><b>Preço:</b>R$ 1449,99 <button class="btn danger">Promoção</button></p>
+                <p>Notebook Positivo Motion Q464B Intel Atom Quad core 4GB 64GB SSD + 64GB Nuvem 14" W10 Vermelho</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="imagens/NotebookGamer2AM.jpg" alt="Notebook Gamer 2AM E550" style="width:100%">
+                <h3>Notebook Gamer 2AM E550</h3>
+                <p><b>Marca:</b>2AM</p>
+                <p><b>Preço:</b>R$ 5599,99</p>
+                <p>Notebook Gamer 2AM E550 Intel Core I7 8GB (GeForce GTX 1050 com 3GB) 256GB SSD IPS Full HD 15,6"
+                    Freedos Cinza Escuro</p>
+                <p>Notebook gamer com o melhor custo/benefício da categoria.</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="imagens/NotebookCompaq.jpg" alt="Notebook Compaq Presario CQ-25" style="width:100%">
+                <h3>Notebook Compaq Presario CQ-25</h3>
+                <p><b>Marca:</b>Compaq</p>
+                <p><b>Preço:</b>R$ 1599,99 <button class="btn danger">Promoção</button></p>
+                <p>Notebook Compaq Presario CQ-25 Intel Pentium 4GB 120GB SSD 14''</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

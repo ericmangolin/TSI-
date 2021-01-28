@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Celular.xsl"?>
+<!DOCTYPE produtos [
+    <!ELEMENT produtos (produto+)>
+    <!ELEMENT produto (nome,descricao,preco,imagem,tipo,marca)>
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT descricao (#PCDATA)>
+    <!ELEMENT preco (#PCDATA)>
+    <!ELEMENT imagem (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT marca (#PCDATA)>
+]>
+<produtos>
+    <produto>
+        <nome>Smartphone Moto G 5G</nome>
+        <descricao>Smartphone Moto G 128GB Dual Chip Android 10 Tela 6.7" Qualcomm Snapdragon 750 Câmera tripla Frontal 16MP - Preto Prisma</descricao>
+        <preco>2799.00</preco>
+        <imagem><img src="c1.jpg"/></imagem>
+        <tipo>celular</tipo>
+        <marca>Motorola</marca>
+    </produto>
+    <produto>
+        <nome>Celular LG B220 Dual</nome>
+        <descricao>Celular LG Dual Chip B220 32Mb 2G Rádio AM/Fm, Cartão de memória - Desbloqueado</descricao>
+        <preco>139.99</preco>
+        <imagem>c2.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>LG</marca>
+    </produto>
+    <produto>
+        <nome>Samsung Galaxy A10s</nome>
+        <descricao>Smartphone Samsung Galaxy A10s Dual Chip Android 9.0 Tela 6.2” Octa-Core 32GB 4G Câmera 13MP+2MP - Azul</descricao>
+        <preco>429.07</preco>
+        <imagem>c3.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Samsung</marca>
+    </produto>
+    <produto>
+        <nome>Nokia 2.3</nome>
+        <descricao>Smartphone Nokia 2.3 Dual Chip Android Tela 6.2" 32GB 4G Câmera 13MP +2MP - Verde Ciano</descricao>
+        <preco>899.00</preco>
+        <imagem>c4.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Nokia</marca>
+    </produto>
+    <produto>
+        <nome>iPhone 11 Pro Max</nome>
+        <descricao>iPhone 11 Pro Max 64GB Verde Meia-Noite 6.5" iOS 4G + Wi-Fi Câmera 12MP - Apple</descricao>
+        <preco>7055.10</preco>
+        <imagem>c5.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Apple</marca>
+    </produto>
+</produtos>
