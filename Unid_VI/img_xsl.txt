@@ -1,1 +1,3 @@
 https://pt.stackoverflow.com/questions/11322/como-exibir-imagens-com-xsl-com-a-src-da-img-do-arquivo-xml
+
+https://www.it-swarm-pt.com/pt/xml/xsl-se-outra-condicao/940432928/
