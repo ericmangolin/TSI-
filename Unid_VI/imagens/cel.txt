@@ -93,3 +93,37 @@ Xiaomi Redmi Go
 Smartphone Xiaomi Redmi Go 16GB Android 8.0 MP
 750
 
+
+<xsl:for-each select="//*">
+                                <xsl:for-each select="imagem">
+                                    <img>
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="."/>
+                                        </xsl:attribute>
+                                    </img>
+                                </xsl:for-each>
+                            </xsl:for-each> 
+
+<fo:external-graphic src="url('http://t1.gstatic.com/images?q=tbn:4pH9Ukkjd7AgUM:http://groups.google.com/group/pedaleabeaucheff/attach/be07177154d25845/Logo+Prefeitura+Sorocaba+-+Mn.jpg?part=6&thumb=1&t=1')" width="100px" height="75px"/>
+
+
+
+  <xsl:for-each select="//**">
+    <tr>
+      <td>
+        <xsl:value-of select="imagem"/>
+      </td>
+      <td>
+        <xsl:element name="imagem">
+          <xsl:attribute name="src">
+            <xsl:value-of select="png"/>
+          </xsl:attribute>
+          <xsl:attribute name="align">left</xsl:attribute>
+        </xsl:element>
+      </td>
+    </tr>
+  </xsl:for-each>
+</table>
+
+
+<table border="1"><xsl:for-each select="//*"><tr><xsl:element name="imagem"><td><img><xsl:attribute name="src"><xsl:value-of select="."/></xsl:attribute></img></td></xsl:element></xsl:for-each></table> 
