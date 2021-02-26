@@ -25,7 +25,7 @@
                 <div class="row">
                     <xsl:for-each select="produtos/produto">
 <!-- ORDENAÇÃO *************************************************************-->
-                        <xsl:sort select="./nome" />
+                        <xsl:sort select="./descricao" />
 <!-- ********************************************************************** -->
                         <div class="column">
                             <div class="content">
