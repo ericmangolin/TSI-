@@ -1,0 +1,156 @@
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  rgb(149, 28, 7);
+}
+
+li {
+    float: right;
+    border-right: 2px solid white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(49, 44, 44);
+}
+
+.active {
+    background-color: rgb(49, 44, 44);
+}
+
+.nome_loja{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    align-items: center;
+    color: #c77974;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.img_icone{
+    width: 15%;
+    height: 15%;
+}
+
+body {
+    background-color: white;
+    padding: 20px;
+    font-family: Arial;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.nome_cel{
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(149, 28, 7);
+    padding: 0.3rem 0.3rem;
+}
+
+h2{
+    font-size: 2rem;
+    color: rgb(66, 58, 58);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+p{
+    margin: 0.6rem 0.4rem;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+.row,.row>.column {
+    padding: 0.4rem 0.4rem;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: white;
+    padding-top: 0rem;
+    padding-bottom: 0.4rem;
+    text-align: center;
+    border: 0.3rem solid rgb(149, 28, 7);
+}
+/* ------------------------------------------*/
+.btn {
+    font-weight: bold;
+    color: white;
+    padding: 0.8rem 4rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 0px;
+}
+/* ------------------------------------------*/
+.danger {
+    background-color: tomato;
+    border: 0.3rem dashed white;
+}
+.danger:hover {
+    background: #b41308;
+}
+/* ------------------------------------------*/
+.comper {
+    background-color: rgb(135, 139, 182);
+    margin-left: 5px;
+    border: 0.3rem dashed rgb(66, 58, 58);
+    color:black;
+}
+.comper:hover {
+    background: rgb(98, 155, 105);
+}
+/* ------------------------------------------*/
+.img_cel{
+    width: 90%;
+    margin-top: 0.5rem;
+}
+
+.img_not{
+    width: 90%;
+    margin-top: 0.5rem;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}

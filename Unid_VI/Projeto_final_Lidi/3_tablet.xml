@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="3_Tablet.xsl"?>
+<!DOCTYPE produtos [
+    <!ELEMENT produtos (produto+)>
+    <!ELEMENT produto (nome,descricao,preco,imagem,tipo,marca)>
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT descricao (#PCDATA)>
+    <!ELEMENT preco (#PCDATA)>
+    <!ELEMENT imagem (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT marca (#PCDATA)>
+]>
+<produtos>
+    <produto>
+        <nome>Samsung Galaxy A7</nome>
+        <descricao>Tablet Samsung Galaxy A7 64GB Wi-Fi 4G Tela 10.4" - Octa-Core 2.0GHz</descricao>
+        <preco>1439.10</preco>
+        <imagem>t1.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Samsung</marca>
+    </produto>
+    <produto>
+        <nome>Positivo Twist</nome>
+        <descricao>Positivo Twist Tab T770B 32GB Wi-Fi Tela 7" Android QuadCore de 1,5 GHz</descricao>
+        <preco>399.00</preco>
+        <imagem>t2.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Positivo</marca>
+    </produto>
+    <produto>
+        <nome>Tablet Ptb7qsg 3g Philco</nome>
+        <descricao>Tablet Ptb7qsg 3g Philco, Android 8.1 E Tela Multi-toque</descricao>
+        <preco>449.99</preco>
+        <imagem>t3.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Philco</marca>
+    </produto>
+    <produto>
+        <nome>Multilaser M7 3G Plus</nome>
+        <descricao>Tablet M7 3G Plus NB304, Tela 7, Dual Chip, Bluetooth, Câm 2MP e 16GB</descricao>
+        <preco>494.10</preco>
+        <imagem>t4.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Multilaser</marca>
+    </produto>
+    <produto>
+        <nome>Samsung Galaxy Tab S5e</nome>
+        <descricao>Tablet Samsung Galaxy Tab S5e 64GB, Tela 10.5" Android Octa-Core 2.0GHz</descricao>
+        <preco>2499.00</preco>
+        <imagem>t5.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Samsung</marca>
+    </produto>
+<!--NOVOS-->
+    <produto>
+        <nome>Samsung Galaxy Tab S5e</nome>
+        <descricao>Novo tablet, inteligente Android de 8 nucleares de 10,1 polegadas</descricao>
+        <preco>699.00</preco>
+        <imagem>t6.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Não disponível</marca>
+    </produto>
+    <produto>
+        <nome>Tablet 10,1'</nome>
+        <descricao>10,1 polegadas Tablet 1+16GB/2+32GB/4+64GB dual Card</descricao>
+        <preco>559.00</preco>
+        <imagem>t7.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Nebula</marca>
+    </produto>
+    <produto>
+        <nome>Tablet PC</nome>
+        <descricao>Tablet pc Three-câmera 1 + 16G Capacidade de alta definição 4G</descricao>
+        <preco>379.00</preco>
+        <imagem>t8.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Coolstyle</marca>
+    </produto>
+    <produto>
+        <nome>Tablet 10.1</nome>
+        <descricao>10.1 polegadas Android 8.0 3G Tablet pc 8GB+128GB Dual sim 10-core</descricao>
+        <preco>479.00</preco>
+        <imagem>t9.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Coolstyle</marca>
+    </produto>
+    <produto>
+        <nome>Samsung Galaxy A T290</nome>
+        <descricao>Tablet Samsung Galaxy A T290 32GB Tela 8" Android Quad-Core 2GHz</descricao>
+        <preco>999.00</preco>
+        <imagem>t10.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Não Disponível</marca>
+    </produto>
+    <produto>
+        <nome>Samsung Galaxy AT290</nome>
+        <descricao>Tablet Samsung Galaxy A T290 32GB Tela 8" Android Quad-Core 2GHz</descricao>
+        <preco>999.00</preco>
+        <imagem>t11.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Samsung</marca>
+    </produto>
+    <produto>
+        <nome>Tablet New Upgrad</nome>
+        <descricao>New Upgraded quad-core wifi tablet seven-inch USB Support</descricao>
+        <preco>542.00</preco>
+        <imagem>t12.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Samsung</marca>
+    </produto>
+    <produto>
+        <nome>Tablet How Max</nome>
+        <descricao>Tablet How Max HT-705 16GB Tela 7' Quad-Core Preto</descricao>
+        <preco>542.00</preco>
+        <imagem>t13.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>How Max</marca>
+    </produto>
+    <produto>
+        <nome>Tablet Multilaser</nome>
+        <descricao>Tablet Multilaser Preto + Case Teclado M7s Go 1gb 16gb Nb310</descricao>
+        <preco>387.99</preco>
+        <imagem>t14.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>How Max</marca>
+    </produto>
+    <produto>
+        <nome>Tablet How Max</nome>
+        <descricao>Tablet android 8.0 6G+128G ten core 10.1 inch dual sim card</descricao>
+        <preco>402.00</preco>
+        <imagem>t15.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>How Max</marca>
+    </produto>
+    <produto>
+        <nome>Tablet 10,1'</nome>
+        <descricao>10,1' + 32G Octa Core, Android 5.1, Dual Camera Dual SIM Card Slot</descricao>
+        <preco>230.00</preco>
+        <imagem>t16.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Não disponível</marca>
+    </produto>
+    <produto>
+        <nome>Tablet Joy</nome>
+        <descricao>Tablet 10 Polegadas 1GB ram/ 8 gb Expansível HD 3G</descricao>
+        <preco>539.00</preco>
+        <imagem>t17.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Joyfeel</marca>
+    </produto>
+    <produto>
+        <nome>Tablet iPad</nome>
+        <descricao>Apple iPad 8ª Geração 10.2", Wi-Fi, 128G Gold - A2270</descricao>
+        <preco>4120.00</preco>
+        <imagem>t18.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Apple</marca>
+    </produto>
+    <produto>
+        <nome>Tablet iPad</nome>
+        <descricao>Renovado 16GB Wifi Tablet pc para iPad 2 para iOS Sistema</descricao>
+        <preco>850.00</preco>
+        <imagem>t19.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Apple</marca>
+    </produto>
+    <produto>
+        <nome>Tablet iPad</nome>
+        <descricao>IPad 32GB 10.2'' Wifi 2019 7ª Geração Dourado</descricao>
+        <preco>3499.00</preco>
+        <imagem>t20.jpg</imagem>
+        <tipo>tablet</tipo>
+        <marca>Apple</marca>
+    </produto>
+</produtos>
