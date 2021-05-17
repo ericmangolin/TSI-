@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="1_Celular.xsl"?>
+<!DOCTYPE produtos [
+    <!ELEMENT produtos (produto+)>
+    <!ELEMENT produto (nome,descricao,preco,imagem,tipo,marca)>
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT descricao (#PCDATA)>
+    <!ELEMENT preco (#PCDATA)>
+    <!ELEMENT imagem (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT marca (#PCDATA)>
+]>
+<produtos>
+    <produto>
+        <nome>Smartphone Moto G 5G</nome>
+        <descricao>Smartphone Moto G 128GB Android 10 Tela 6.7" Snapdragon 750 Câmera tripla</descricao>
+        <preco>2799.00</preco>
+        <imagem>c2.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Motorola</marca>
+    </produto>
+    <produto>
+        <nome>Celular LG B220 Dual</nome>
+        <descricao>Celular LG Dual Chip B220 32Mb 2G Rádio AM/Fm, Cartão de memória</descricao>
+        <preco>139.99</preco>
+        <imagem>c1.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>LG</marca>
+    </produto>
+    <produto>
+        <nome>Samsung Galaxy A10s</nome>
+        <descricao>Smartphone Samsung Galaxy A10s Android Tela 6.2” Octa-Core 32GB 4G</descricao>
+        <preco>429.00</preco>
+        <imagem>c3.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Samsung</marca>
+    </produto>
+    <produto>
+        <nome>Nokia 2.3</nome>
+        <descricao>Smartphone Nokia 2.3 Dual Chip Android Tela 6.2" 32GB 4G Câmera 13MP+2MP</descricao>
+        <preco>899.00</preco>
+        <imagem>c4.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Nokia</marca>
+    </produto>
+    <produto>
+        <nome>iPhone 11 Pro Max</nome>
+        <descricao>iPhone 11 Pro Max 64GB Meia-Noite 6.5" iOS 4G + Wi-Fi Câmera 12MP</descricao>
+        <preco>7055.00</preco>
+        <imagem>c5.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Apple</marca>
+    </produto>
+<!--NOVOS-->
+    <produto>
+        <nome>iPhone 12</nome>
+        <descricao>Smartphone Apple iPhone 12 64GB iOS Câmera Dupla</descricao>
+        <preco>5600.00</preco>
+        <imagem>c21.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Apple</marca>
+    </produto>
+    <produto>
+        <nome>Samsung S10 Plus</nome>
+        <descricao>Smartphone Samsung Galaxy S10 Plus SM-G975FZ 128GB Android</descricao>
+        <preco>2840.00</preco>
+        <imagem>c20.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Samsung</marca>
+    </produto>
+    <produto>
+        <nome>Motorola Edge Plus</nome>
+        <descricao>Smartphone Motorola Edge Plus XT2061-3 256GB Android Câmera Tripla</descricao>
+        <preco>4470.00</preco>
+        <imagem>c19.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Motorola</marca>
+    </produto>
+    <produto>
+        <nome>Xiaomi Mi 10T</nome>
+        <descricao>Smartphone Xiaomi Mi 10T 5G 128GB Android Câmera Tripla</descricao>
+        <preco>4800.00</preco>
+        <imagem>c18.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Xiaomi</marca>
+    </produto>
+    <produto>
+        <nome>Motorola One Zoom</nome>
+        <descricao>Smartphone Motorola One Zoom XT2010-1 128GB Android Câmera </descricao>
+        <preco>2100.00</preco>
+        <imagem>c17.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Motorola</marca>
+    </produto>
+    <produto>
+        <nome>Samsung Galaxy A80</nome>
+        <descricao>Smartphone Samsung Galaxy A80 SM-A805FZ 128GB Android</descricao>
+        <preco>1890.00</preco>
+        <imagem>c16.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Samsung</marca>
+    </produto>
+    <produto>
+        <nome>Motorola One Fusion</nome>
+        <descricao>Smartphone Motorola One Fusion XT2073-2 128GB Android</descricao>
+        <preco>1400.00</preco>
+        <imagem>c15.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Motorola</marca>
+    </produto>
+    <produto>
+        <nome>Xiaomi Redmi Note 8</nome>
+        <descricao>Smartphone Xiaomi Redmi Note 8 128GB Android Câmera Quádrupla</descricao>
+        <preco>1450.00</preco>
+        <imagem>c14.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Xiaomi</marca>
+    </produto>
+    <produto>
+        <nome>Samsung Galaxy A51</nome>
+        <descricao>Smartphone Samsung Galaxy A51 SM-A515F 128GB Android</descricao>
+        <preco>1700.00</preco>
+        <imagem>c13.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Samsung</marca>
+    </produto>
+    <produto>
+        <nome>Samsung Galaxy A30s</nome>
+        <descricao>Smartphone Samsung Galaxy A30s SM-A307G 64GB Android</descricao>
+        <preco>1370.00</preco>
+        <imagem>c12.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Samsung</marca>
+    </produto>
+    <produto>
+        <nome>Zenfone Max Shot</nome>
+        <descricao>Smartphone Asus Zenfone Max Shot 64GB Android Câmera Tripla</descricao>
+        <preco>1010.00</preco>
+        <imagem>c11.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Asus</marca>
+    </produto>
+    <produto>
+        <nome>Moto G9 Play</nome>
+        <descricao>Smartphone Motorola Moto G G9 Play XT2083-1 64GB Android</descricao>
+        <preco>1170.00</preco>
+        <imagem>c10.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Motorola</marca>
+    </produto>
+    <produto>
+        <nome>Moto G8</nome>
+        <descricao>Smartphone Motorola Moto G G8 XT2045-1 64GB Android</descricao>
+        <preco>1250.00</preco>
+        <imagem>c9.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Motorola</marca>
+    </produto>
+    <produto>
+        <nome>Moto G8 Power Lite</nome>
+        <descricao>Smartphone Motorola Moto G G8 Power Lite XT2055-2 64GB Android</descricao>
+        <preco>1050.00</preco>
+        <imagem>c8.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Motorola</marca>
+    </produto>
+    <produto>
+        <nome>Moto G8 Play</nome>
+        <descricao>Smartphone Motorola Moto G G8 Play XT2015-2 32GB Android</descricao>
+        <preco>999.00</preco>
+        <imagem>c7.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Motorola</marca>
+    </produto>
+    <produto>
+        <nome>Moto E6 Plus</nome>
+        <descricao>Smartphone Motorola Moto E6 Plus XT2025-1 32GB Android</descricao>
+        <preco>750.00</preco>
+        <imagem>c6.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Motorola</marca>
+    </produto>
+    <produto>
+        <nome>LG K22 Plus</nome>
+        <descricao>Smartphone LG K22 Plus LM-K200BAW 64GB Android Câmera Dupla</descricao>
+        <preco>499.00</preco>
+        <imagem>c5.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Lg</marca>
+    </produto>
+    <produto>
+        <nome>Samsung Galaxy A10</nome>
+        <descricao>Smartphone Samsung Galaxy A10 SM-A105M 32GB Android</descricao>
+        <preco>1345.00</preco>
+        <imagem>c4.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Samsung</marca>
+    </produto>
+    <produto>
+        <nome>Xiaomi Redmi Go</nome>
+        <descricao>Smartphone Xiaomi Redmi Go 16GB Android 8.0 MP</descricao>
+        <preco>750.00</preco>
+        <imagem>c3.jpg</imagem>
+        <tipo>celular</tipo>
+        <marca>Xiaomi</marca>
+    </produto>
+</produtos>
