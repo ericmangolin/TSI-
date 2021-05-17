@@ -1,0 +1,41 @@
+//@author ericmangolim
+
+import java.util.Scanner;
+
+public class AtivII_Q1 {
+    
+    public static void main(String[] args){
+        
+        String nome, disciplina;
+        int idade, turma;
+        float n1, n2, n3, n4;
+        
+        for(int i=0, i<5, i++){
+        
+            System.out.println("Digite o Nome do Aluno: ");
+            Scanner nome_a = new Scanner(System.in);
+            nome = nome_a.next();
+
+            System.out.println("Digite a Idade do Aluno: ");
+            Scanner idade_a = new Scanner(System.in);
+            idade = idade_a.nextInt();
+
+            System.out.println("Digite a Turma do Aluno: ");
+            Scanner turma_a = new Scanner(System.in);
+            turma = turma_a.nextInt();
+
+            System.out.println("Digite o Disciplina do Aluno: ");
+            Scanner disc_a = new Scanner(System.in);
+            disciplina = disc_a.next();
+        
+        }
+        
+        /*System.out.println(nome);
+        System.out.println(idade);
+        System.out.println(turma);
+        System.out.println(disciplina);*/
+        
+        
+    }
+    
+}
