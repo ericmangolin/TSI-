@@ -1,0 +1,79 @@
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author ericmangolim
+ */
+public class Aluno {
+    private String nome, disciplina, situacao;
+    private int idade, i;
+    private float media;
+    private int n = 3;
+    private float notas[] = new float[n];
+
+    public Aluno(){//Construtor
+        Scanner nomAlu = new Scanner(System.in);
+        nome = nomAlu.next();
+        
+        Scanner idaAlu = new Scanner(System.in);
+        idade = idaAlu.nextInt();
+        
+        Scanner discAlu = new Scanner(System.in);
+        disciplina = discAlu.next();
+        
+        for (i=0; i<=n; i++){
+            Scanner notasAlu = new Scanner(System.in);
+            notas[n] = notasAlu.nextFloat();
+        }
+    }
+    
+    public String getNome(){
+        return this.nome;
+    }
+    public void setNome(String nom){
+        this.nome = nom;
+    }
+    
+    public String getDisciplina(){
+        return this.disciplina;
+    }
+    public void setDisciplina(String dis){
+        this.disciplina = dis;
+    }
+    
+    public String getSituacao(){
+        return this.situacao;
+    }
+    public void setSituacao(String sit){
+        this.situacao = sit;
+    }
+    
+    public int getIdade(){
+        return this.idade;
+    }
+    public void setIdade(int ida){
+        this.idade = ida;
+    }
+    
+    public void status(){
+        System.out.println("ALUNO:");
+        System.out.println("Nome: " + this.getNome());
+        System.out.println("Idade: " + this.getIdade());
+    }
+}
+
+*******************
+
+//@author ericmangolim
+
+import java.util.Scanner;
+
+public class AtivII_Q1 {
+    
+    public static void main(String[] args){
+        Aluno alu = new Aluno();
+        alu.status();
+    }
+    
+}
